@@ -95,7 +95,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.homeBody {
+body {
   background: url("../img/france.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -124,6 +124,21 @@ textarea {
 }
 
 .dropdown-menu {
+  text-align: center;
+}
+
+.flashcards {
+  width: 200px;
+  height: 200px;
+  background: white;
+  margin: auto;
+    width: 60%;
+    border:3px solid black;
+    padding: 10px;
+}
+
+.flashcards p {
+  color: black;
   text-align: center;
 }
 
