@@ -131,10 +131,11 @@ body {
 .flip-panel {
   display: block;
   position: relative;
-  width: 200px;
-  height: 200px;
-  margin: 20px auto;
+  width: 450px;
+  height: 500px;
+  margin: auto;
   perspective: 1200px;
+  margin-bottom: 5%;
 }
 
 .panel {
@@ -207,6 +208,11 @@ body {
   -moz-transform-origin: right;
   transform: rotateY(0deg);
   transform-origin: right;
+}
+
+.flip-panel h1 {
+  text-align: center;
+  margin: 4%;
 }
 /* end flipbook code */
 
